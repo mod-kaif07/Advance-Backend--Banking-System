@@ -10,7 +10,7 @@ app.use(cookieParser());
 connectDB();
 
 app.get("/", (req, res) => {
-  res.send("hello");
+  res.send("App Running well on Render ");
 });
 
 app.use("/api/auth", authRoutes);
